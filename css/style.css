@@ -1,0 +1,889 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+.header{
+    width:100% ;
+    height: 70px;
+    background-color:pink;
+    position: fixed;
+    opacity: 0.5;
+    z-index: 10;   
+}
+.list a{
+    display: inline-block;
+    list-style-type: none;
+    text-transform: capitalize;
+    text-decoration: none;
+   margin-right:20px ;
+   font-size: 30px;
+   margin-top: 11px;
+   color:purple;
+   position: relative;
+}
+.list{
+ 
+    float: right;
+}
+.image{
+    width:100%;
+     height:100vh;
+     background-image:url(../image/photo_2023-12-13_00-58-47.jpg) ;
+     background-size: cover;
+     position: relative;
+     
+}
+.overlay1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.125);
+}
+.content{
+    width: 40%;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+   transform: translate(-50%,-50%);
+}
+.content h2{
+    font-size: 40px;
+    color: white;
+}
+.content p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(247, 204, 211);
+}
+.btn1{
+    font-size: 20px;
+    padding: 10px 25px;
+    margin-top: 5px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+.btn1:hover{
+    opacity: 0.7;
+}
+.btn2{
+    background-color: rgb(175, 103, 115);
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    margin-top: 5px;
+   
+    border-radius: 5px;
+}
+.btn2:hover{
+    opacity: 0.7;
+}
+.imghead{
+    margin-left: 40px;
+    border-radius: 30px ;
+}
+.list .a1-1{text-decoration: underline;
+}
+.list a:hover{
+text-decoration:underline ;
+transition: 2s;
+}
+.asign{
+    border:5px solid purple;
+    border-radius: 20px;
+    background-color: purple;
+   
+   
+}
+.list .asign{color:rgb(255, 255, 255);
+ }
+.asign:hover{
+    font-size: 40px;
+    background-color: pink;
+    color: purple;
+    border:3px solid purple;
+  
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+hr{
+    width: 140px;
+    height: 5px;
+    margin: auto;
+    background-color: rgb(196, 97, 130);
+    margin-bottom: 50px;
+   
+}
+.parent{
+    overflow: auto;
+}
+.div1{
+    width: 300px;
+    height: 200px;
+    border: 5px solid black;
+    float: left;
+    margin-left: 130px;
+    text-align: center;
+    position: relative;
+}
+.div2{
+    width: 300px;
+    height: 200px;
+    border: 5px solid black;
+    float: left;
+    margin-left: 130px;
+    text-align: center;
+    position: relative;
+}
+.div3{
+    width: 300px;
+    height: 200px;
+    border: 5px solid black;
+    float: left;
+    margin-left: 130px;
+    text-align: center;
+    position: relative;
+}
+.parent a{text-decoration: none;
+    color: rgb(202, 102, 119);}
+
+.div1:hover h2{
+color: aliceblue;
+}
+.div2:hover h2{
+    color: aliceblue;
+    }
+    .div3:hover h2{
+        color: aliceblue;
+        }
+    .parent p{color: pink;
+    padding-top:10px ;
+padding-bottom:15px ;}
+    .parent i{color: rgb(202, 102, 119);
+        font-size: 40px;
+        margin-top: 5px;
+    padding-bottom: 10px;}
+
+        .parent div::after{
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 0;
+            top:0;
+            left:0 ;
+            /* background-color: rgb(8, 8, 8); */
+            background-color: rgb(0, 0, 0,0.2);
+            transition: 2s;
+            z-index: -1;
+        }
+        .parent div:hover::after{  width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);}
+
+            
+
+            .title2{
+                text-align: center;
+                font-size: 30px;
+                margin-top: 80px;
+            }
+           
+            .parent1{
+                overflow:auto;  
+            }
+            
+            .div4{
+                width: 250px;
+                height: 300px;
+                background-color: bisque;
+                float: left;
+                margin: 30px 0px 0px  170px;
+                position: relative;
+                
+            }
+           
+            .div4-1{
+                background-image: url(../image/images\ \(3\).jfif);
+                background-size: cover;
+                margin-left:22px ;
+                width: 200px;
+                height: 300px;
+            }
+            .div4-11{
+                background-image: url(../image/images.jfif);
+                background-size: cover;
+                margin-left:22px ;
+                width: 200px;
+                height: 300px;
+            }
+            .div4-111{
+                background-image: url(../image/images\ \(6\).jfif);
+                background-size: cover;
+                margin-left:22px ;
+                width: 200px;
+                height: 300px;
+            }
+            .div4-1111{
+                background-image: url(../image/images\ \(5\).jfif);
+                background-size: cover;
+                margin-left:22px ;
+                width: 200px;
+                height: 300px;
+            }
+            .div4-11111{
+                background-image: url(../image/child.jfif);
+                background-size: cover;
+                margin-left:22px ;
+                width: 200px;
+                height: 300px;
+            }
+            .div4-111111{
+                background-image: url(../image/images\ \(2\).jfif);
+                background-size: cover;
+                margin-left:22px ;
+                width: 200px;
+                height: 300px;
+            }
+            .div4-2{
+                text-align: center;
+                font-size: 20px;
+                 padding-top: 55px;
+                 line-height: 50px;
+                display: none;  
+            } 
+            .div4-2 a{
+               
+                font-size: 30px;
+                margin:25px 0px 0px 5px;
+                
+                background-color: blue;
+                color: aliceblue;
+            }
+            .div4:hover .div4-2 {
+               
+                display: block;
+            }
+            .div4::after {
+                position: absolute;
+                content:"";
+                width: 100%;
+                height: 100%;          
+                 left: 0;
+                top: 0; 
+                background-color: black;
+                opacity: 0;
+                transition: 2s;
+               z-index: 1;
+            }
+            .div4:hover::after {
+                width: 100%;
+                height: 100%;
+               opacity: 0.5;
+              
+            }
+            .parent1:hover p{ color: palevioletred;
+            position: relative;
+        z-index: 4;}
+            .parent1 span{position: relative;}
+.parent1:hover span{z-index: 4;
+color: white;
+font-weight: bold;}
+.parent1 a{position: relative;
+    background-color:pink;
+color: palevioletred;}
+.parent1:hover a{z-index: 4;}
+
+            .title2:hover{
+                color: palevioletred;
+                font-size: 50px;
+            }
+            .parent1 p{position: relative;}
+            .title4{
+                font-size: 40px;
+                text-align: center;
+                margin-top: 150px; }
+            .parent4{
+                overflow: auto;}
+            .parent4 .div1page4{
+                width: 300px;
+                height: 200px;
+                border: 2px solid black;
+                float: left;
+                margin-left: 120px;
+                text-align: center;
+                position: relative;
+                margin-top: 20px;
+            }
+            .parent4 .div1page4 a{
+                text-decoration: none;
+            }
+            .parent4 .div1page4 i{ font-size: 40px;
+                color: rgb(145, 145, 248);
+                margin-top: 5px;}
+             .parent4 .div1page4::after{
+                    position: absolute;
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    top:0;
+                    left:0 ;
+                    background-color: rgb(32, 32, 32);
+                    opacity: 0;
+                    transition: 0.5s;
+                    z-index: -1;
+                }
+                .parent4 .div1page4:hover::after{
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.9;
+                }
+                .parent4 .div1page4:hover h2{color: aliceblue;}
+                .div1page4 h2{display: inline;
+                margin-right: 80px;}
+               .parent4 .div1page4 i{
+            padding: 10px 20px 20px 0px;
+            color: rgb(202, 102, 119);}
+            .div1page4 p{font-size: 25px;
+            color:pink}
+             .title4:hover{  color: palevioletred;
+                font-size: 50px;  }
+                 .bigdiv{
+                    width: 100%;
+                    height: 600px;
+                    background-color: rgb(245, 229, 247);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;
+                    margin-top: 120px;
+                }
+                .groundimg{display: inline;
+                width: 450px;
+                height: 450px;
+                margin-left: 800px;
+                margin-top: 40px;
+                background-color: rgb(183, 197, 240);
+                position: absolute;
+                text-align: center;
+                }
+                .bigdiv h2{font-size: 40px;}
+                .bigdiv i{font-size: 20px;
+                color: palevioletred;}
+                .bigdiv span{font-size: 20px;}
+                .bigdiv p{font-size: 25px;}
+                .bigdiv hr{width: 90px; 
+                height: 4px;
+                background-color: rgb(204, 0, 255);
+                margin-left: 0px;
+                }
+                .smoll{width: 600px;
+                height: 500px;
+                /* background-color: blueviolet; */
+                 position: absolute;
+                margin-left: 50px;
+                margin-top: 20px;}
+                .li1{
+                    color: rgb(183, 71, 108) }
+                    .li2{color:rgb(254, 199, 208);
+                    font-size: 40px; 
+                }    
+                    .li2:hover{ color: rgb(183, 71, 108) ;}
+                    .bigdiv ul {
+                margin-top: 370px;
+                margin-left: 950px;
+                position: absolute;
+                }
+                .list2 li{display: inline-block;
+                    font-size: 150px;} 
+                    .image6{
+                        width: 100%;
+                        height: 350px;
+                        background-image: url(../image/photo_2023-12-12_18-28-16.jpg);
+                        background-attachment: fixed;
+                        background-size: cover;
+                        position: relative;
+                       
+                    }
+                    .overlay6{
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0,0,0.7);
+                    }
+                    .content6{
+                        position: absolute;
+                        font-size: 25px;
+                        color: white;
+                       text-align: center;
+                      overflow: auto;
+                    }
+                    .groub1{float: left;
+                    margin: 100px 0px 0px 130px;
+                    font-size: 30px;
+                    }
+                    .groub1 i{color: rgb(244, 189, 252);
+                    font-size: 35px;}
+                    .img1{
+                        width: 200px;
+                        height: 50px;
+                        margin-left: 11px;
+                    }
+                    .list1{ 
+                        float: right;
+                        margin-right: 15px;
+                    }
+                     .list1 li{
+                        display:inline-block;
+                        margin-left: 13px;
+                        margin-top: 10px;
+                       
+                    }
+                    .list1 li a{
+                        color:white;
+                        text-decoration:none;
+                        font-size:20px;
+                        text-transform: capitalize;
+                        font-weight: bold;
+                    }
+                    .list1 li a:hover{
+                        color: rgb(10, 130, 234);
+                    }
+                    .a1{
+                        border: 5px solid red;
+                        border-radius: 150px;
+                       background-color: red;
+                        
+                    }
+                    .h2{
+                        text-align: center;
+                        margin-top: 70px;
+                        font-size: 60px;
+                    }
+                    .h2:hover{color: palevioletred;}
+                    .div1-7{
+                        height: 350px;
+                        width: 285px;
+                        background-color:black;
+                        margin-left: 170px;
+                        margin-top: 50px;
+                        float: left;
+                        border: 3px solid white;
+                        position: relative;
+                    }
+                    .h10{
+                        color: white;
+                        margin-top: 20px;
+                        text-align: center;
+                    }
+                    .div10{
+                        width: 100px;
+                        height: 100px;
+                        background-color:white;
+                        border-radius: 50px ;
+                        margin-top: 20px;
+                        margin-left: 90px;
+                        font-size: 20px;
+                        color: rgb(10, 130, 234);
+                        text-align: center;
+                       
+                    }
+                    .div12{
+                        width: 100px;
+                        height: 100px;
+                        background-color:white;
+                        border-radius: 50px ;
+                        margin-top: 20px;
+                        margin-left: 90px;
+                        font-size: 20px;
+                        color: rgb(10, 130, 234);
+                        text-align: center;
+                       
+                    }
+                    .div13{
+                        width: 100px;
+                        height: 100px;
+                        background-color:white;
+                        border-radius: 50px ;
+                        margin-top: 20px;
+                        margin-left: 90px;
+                        font-size: 20px;
+                        color: rgb(10, 130, 234);
+                        text-align: center;
+                    }
+                    
+                    .btn1-7{
+                        width: 150px;
+                        height: 50px;
+                        background-color: white;
+                        color: black;
+                        font-size: 23px;
+                        margin-top: 30px;
+                        margin-left: 70PX;
+                        border: 3PX solid gray;
+                        border-radius:20px ;
+                    }
+                    .from1 {
+                        color: #ffffff;
+                        font-size: 20px;
+                    }
+                    .form2{
+                        color: white;
+                        font-size: 20px;
+                        margin-top: 80px;
+                        margin-left: 20px;  
+                    }
+                    .form3{
+                        color: white;
+                        font-size: 20px;
+                        margin-top: 10px;
+                        margin-left: 20px;
+                    }
+                    .div10:hover{
+                        background-image: url(../image/IMG-20220803-WA0016.jpg);
+                        background-size:cover ;
+                    }
+                    .div12:hover{
+                        background-image: url(../image/photo_2023-07-24_10-52-03.jpg);
+                        background-size:cover ;
+                    }
+                    .div13:hover{
+                        background-image: url(../image/FB_IMG_1645392772562.jpg);
+                        background-size:cover ;
+                    }
+                    .div1-7:hover h2{
+                        color: palevioletred;
+                        transition: 2s;
+                    }
+                    .div1-7:hover span{color: palevioletred;}
+                    .btn1-7:hover{
+                        border-color: rgb(10, 130, 234);
+                        border-radius: 30px;
+                        color:rgb(10, 130, 234) ;
+                        font-size: 30px;
+                    }
+                     .parent7{
+                        overflow: auto;
+                    }
+                    .hcercl{
+                        padding-top: 9px;
+                        font-size: 40px;
+                    }
+                    .box{ 
+                        margin-top: 20px;
+                    }
+                    .div1-7::after{
+                        position: absolute;
+                        content: "";
+                        width: 100%;
+                        height: 0;
+                        top:0;
+                        left: 0;
+                        background-color: rgba(0, 0,0,0.5);
+                        transition: 5s;
+                    }
+                    .div1-7:hover::after{
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0.7;
+                    }
+                    .par-8{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(../image/shein.jpg);
+                        margin-top: 150px;
+                        position: relative;
+                        overflow: auto;
+                        background-attachment: fixed;
+                    }
+                    .overlay{
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0,0 ,0,0.3);
+                    }
+                    .div1-8{
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50px;
+                        background-color: rgb(159, 223, 252);
+                        position: absolute;
+                       display: inline;
+                    }
+                    .children{
+                        display: inline;
+                      
+                        width: 140px;
+                        float: right;
+                        margin: 30px 40px 0px 0px;
+                        color: rgb(110, 202, 235);
+                       
+                    }
+                    .img1-8{
+                        width: 60px;
+                        height: 98px;
+                        
+                        margin-left:20px;
+                        padding-top: 1px;
+                        border-radius: 18px;
+                    }
+                    .son1{
+                      
+                        width: 300px;
+                        height: 200px;
+                        float: left;
+                        margin:50px 0px 0px 200px ;
+                        font-size: 18px;
+                        position: absolute;
+                        /* background-color: red; */
+                        
+                    }
+                    .son2{
+                       
+                        width: 300px;
+                        height: 200px;
+                        float: right;
+                        margin-left: 800px;
+                        margin-top: 50px;
+                        font-size: 18px;
+                        position: absolute;
+                    }
+                    .p1{
+                        line-height: 25px;
+                        padding-top: 100px;
+                        color: aliceblue;
+                    }
+                    .children span{
+                        color: white;
+                        font-size: 20px;
+                    }
+                    .title9{font-size: 40px;
+                        text-align: center;
+                        margin-top: 150px;
+                        }
+                        .parent9{
+                            overflow: auto;
+                            margin-top: 50px;
+                            text-align: center; 
+                        }
+                        .div1-9{
+                         width: 400px;
+                         height: 320px;
+                         background-color:rgb(249, 209, 215);
+                         float: left;   
+                         position: relative;
+                         margin-left: 80px;
+                        }
+                        .div1-9-2{
+                            width: 330px;
+                            height: 200px;
+                            background-image: url(../image/macap.jfif);
+                            background-size: cover;
+                            margin:auto;
+                            margin-top: 20px;
+                            position: relative; 
+                        }
+                        .div1-9-22{
+                            width: 330px;
+                            height: 200px;
+                            background-image: url(../image/clothmen.jfif);
+                            background-size: cover;
+                            margin:auto;
+                            margin-top: 20px;
+                            position: relative; 
+                        }
+                        .div1-9-23{
+                            width: 330px;
+                            height: 200px;
+                            background-image: url(../image/cloths\ women.jfif);
+                            background-size: cover;
+                            margin:auto;
+                            margin-top: 20px;
+                            position: relative; 
+                        }
+                        .div1-9-2 i{
+                            font-size: 40px;
+                            color: wheat;
+                            margin-left: 290px;
+                            display: block;
+                            background-color: rgb(58, 58, 232); 
+                        }    
+                        .div1-9-22 i{
+                            font-size: 40px;
+                            color: wheat;
+                            margin-left: 290px;
+                            display: block;
+                            background-color: rgb(58, 58, 232); 
+                        }    
+                        .div1-9-23 i{
+                            font-size: 40px;
+                            color: wheat;
+                            margin-left: 290px;
+                            display: block;
+                            background-color: rgb(58, 58, 232); 
+                        }    
+                        .overlay9{
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0; 
+                        }
+                        .div1-9:hover .overlay9{
+                            opacity: 1;
+                            background-color: rgba(0, 0,0,0.5); 
+                        }
+                        .div1-9:hover h2{
+                            color: white;
+                            transition: 1s;
+                        }
+                        .div1-9:hover span{
+                            color: blue;
+                            transition: 2s;
+                        }
+                        .div1-9::after{
+                            position: absolute;
+                            content: "";
+                            width: 100%;
+                            height: 0;
+                            top:0;
+                            left: 0;
+                            background-color: black;
+                            opacity: 0.1;
+                            transition: 3s;
+                        }
+                        .div1-9:hover::after{
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0.5;
+                        }
+                        .title9:hover{color: palevioletred;}
+                            .h2latest{
+                                font-size: 30px;
+                                text-align: center;
+                                margin-top: 230px;
+                                transition: 2s;
+                            }
+                            .h2latest:hover{
+                                color: rgb(180, 29, 180);
+                            }
+                            .parlast{ overflow: auto;}
+                            
+                            .div1last{
+                                width: 300px;
+                                height: 600px;
+                                background-color: rgb(251, 204, 211);
+                                float: left;
+                                margin-left: 150px;
+                                text-align: center;
+                                position: relative;
+                            }
+                            .div2last{
+                                width: 300px;
+                                height: 600px;
+                                background-color: rgb(251, 204, 211);
+                                float: left;
+                                margin-left: 150px;
+                                text-align: center;
+                                position: relative;
+                            }
+                            .div3last{
+                                width: 300px;
+                                height: 600px;
+                                background-color: rgb(251, 204, 211);
+                                float: left;
+                                margin-left: 150px;
+                                text-align: center;
+                                position: relative;
+                            }
+                            .imglatest{
+                                margin:20px;
+                            }
+                            .latesta{
+                                font-size: 20px;
+                                text-decoration: none;
+                            }
+                            .parlast i{
+                                color: rgb(47, 47, 241);
+                            }
+                            .div1last::after{
+                                position: absolute;
+                                content: "";
+                                width:100% ;
+                                height: 0;
+                                top: 0;
+                                left: 0;
+                                background-color: gray;
+                                opacity: 0;
+                                transition: 4s;
+                            }
+                            .div1last:hover::after{
+                                width: 100%;
+                                height: 100%;
+                                opacity: 0.6;
+                            }
+                            .div2last::after{
+                                position: absolute;
+                                content: "";
+                                width:100% ;
+                                height: 0;
+                                top: 0;
+                                left: 0;
+                                background-color: gray;
+                                opacity: 0;
+                                transition: 4s;
+                            }
+                            .div2last:hover::after{
+                                width: 100%;
+                                height: 100%;
+                                opacity: 0.6;
+                            }
+                            .div3last::after{
+                                position: absolute;
+                                content: "";
+                                width:100% ;
+                                height: 0;
+                                top: 0;
+                                left: 0;
+                                background-color: gray;
+                                opacity: 0;
+                                transition: 4s;
+                            }
+                            .div3last:hover::after{
+                                width: 100%;
+                                height: 100%;
+                                opacity: 0.6;
+                            }
+                            .finsh{
+                                width: 100%;
+                                height: 300px;
+                                background-color: rgb(74, 74, 74);
+                                text-align: center;
+                            }
+                            .imgfinsh{
+                                margin-top: 50px;
+                                padding-bottom:20px ;
+                            }
+                            .finsh i{
+                                font-size: 50px;
+                                color:rgb(138, 138, 254);
+                            }
+                            .finsh p{
+                                color: white;
+                            }
+                            .finsh i:hover{
+                                color: rgb(95, 95, 215);
+                            }
+                            .div1last h2{margin: 20px;}
+                            .div1last p{
+                                margin: 25px;
+                            }
+                            .div2last h2{margin: 20px;}
+                            .div2last p{
+                                margin: 25px;
+                            }
+                            .div3last h2{margin: 20px;}
+                            .div3last p{
+                                margin: 25px;
+                            }
